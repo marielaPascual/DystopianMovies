@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<title>Dystopian List</title>
+
+	<!--Firebase-->
+	<script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+
+    <!--jQuery-->
+    <script src="https://code.jquery.com/jquery.js"></script>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <!-- LINK TO CSS FILE -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <!-- FONTS -->
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,200,500,600,700' rel='stylesheet' type='text/css'>
+	
+</head>
+<body>
+	<header>
+		<div class="container" id="header">
+			<h1 id="title">dystopian &nbsp; movies</h1>
+		</div>
+	</header>
+	<div class="container" id="movieForm">
+
+		<form>
+
+		    <!-- Label for Text Box -->
+		    <label for="movieInput" id="addMovie">Add Movie &nbsp;</label>
+
+		    <!-- Text Input Box -->
+		    <input type="text" id="movieInput">
+
+		    <!-- Submit Button -->
+		    <input id="selectMovie" type="submit" value="GO!">
+
+		 </form>
+
+	</div>
+	<div class="container">
+		<div class="table-responsive" id="table">
+				<table>
+					<thead>
+						<tr>
+						<th id="poster"></th>
+
+						<th id="generalInfo"></th>
+
+						<th id="sinopsis"></th>
+						</tr>
+					</thead>
+					<tbody>
+					</tbody>
+				</table>
+			</div>
+	</div>
+
+
+<!-- API-->
+ <script>
+	</script>
+
+ <!-- LINK TO JS FILE -->
+ <script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+</html>
