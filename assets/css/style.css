@@ -1,0 +1,67 @@
+@font-face{
+    font-family: Resistance;
+    src: url(Resistance.ttf); 
+}
+
+/*header*/
+
+header{
+	height: 150px;
+	background-image: url("../img/titleBackground2.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#title {
+	margin:30px;
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	font-family: Resistance;
+}
+
+/*Form*/
+
+#movieForm{
+	background-color: #222221;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+}
+form{
+	padding-top: 12px;
+}
+#addMovie{
+	color:white;
+}
+
+/*Movie Table*/
+
+#table{
+	margin: 50px 50px 50px 180px;
+	background-color: ;
+	width: 800px;
+
+
+}
+
+#poster{
+	width: 200px;
+}
+
+img{
+	width: 150px;
+}
+
+#sinopsis{
+	width: 200px;
+}
+
+#generalInfo{
+	width: 300px;
+}
+
+td{
+	margin-right: 50px;
+}
