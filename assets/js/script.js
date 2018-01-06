@@ -77,8 +77,8 @@ firebase.database().ref("/movies").on("child_added", function(snapshot){
                                 
 
                                 "<td>" + 
-                                    "<p>" + "<b>Director: </b>" + snapshot.val().director + "</p>" +
-                                    "<p>" + "<b>Staring: </b>" + snapshot.val().actors + "</p>" +
+                                    "<p>" + "<b>Directed by: </b>" + snapshot.val().director + "</p>" +
+                                    "<p>" + "<b>Cast: </b>" + snapshot.val().actors + "</p>" +
                                     "<p>" + "<b>Sinopsis: </b>" + snapshot.val().sinopsis + "</p>" + 
                                 "</td>" + "</tr>" + "<br>");
    
