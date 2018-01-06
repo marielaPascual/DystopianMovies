@@ -61,9 +61,9 @@ $("#selectMovie").on("click", function(event) {
 
 firebase.database().ref("/movies").on("child_added", function(snapshot){
 
-    $("tbody").append("<tr>" +  "<td>" + 
+    $("tbody").append(`<tr class ='tableRow'>` +  "<td>" + 
                                     `<img src='${snapshot.val().moviePoster}'>` + 
-                                "</td>" +
+                                "</td>" + 
                                 
                                 "<td>" + 
                                     "<h3>" + snapshot.val().movieTitle + "</h3>" + "<br>" +
@@ -80,7 +80,7 @@ firebase.database().ref("/movies").on("child_added", function(snapshot){
                                     "<p>" + "<b>Directed by: </b>" + snapshot.val().director + "</p>" +
                                     "<p>" + "<b>Cast: </b>" + snapshot.val().actors + "</p>" +
                                     "<p>" + "<b>Sinopsis: </b>" + snapshot.val().sinopsis + "</p>" + 
-                                "</td>" + "</tr>" + "<br>");
+                                "</td>" + "</tr>" + "<br>"); 
    
 
 });

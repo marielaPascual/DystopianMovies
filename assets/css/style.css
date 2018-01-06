@@ -52,6 +52,7 @@ form{
 
 img{
 	width: 150px;
+	margin-bottom: 20px;
 }
 
 #sinopsis{
@@ -62,6 +63,6 @@ img{
 	width: 300px;
 }
 
-td{
-	margin-right: 50px;
+.tableRow{
+	margin: 50px;
 }
